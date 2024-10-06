@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#root{
+  display: flex;
+  
+}
+
+body{
+  background: linear-gradient(rgb(7, 57, 64) 0%, black 40%), #000; 
+  @apply text-white min-h-dvh;
+}
